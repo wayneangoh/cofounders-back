@@ -1,0 +1,35 @@
+{
+  "name": "cofounders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "cover": "istanbul cover _mocha",
+    "test": "mocha",
+    "seed": "node models/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wayneangoh/cofounders-back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "supertest": "^1.2.0"
+  },
+  "engines": {
+    "node":"6.2.1"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.4",
+    "mongoose-seed": "^0.1.5",
+    "mongoose-unique-validator": "^1.0.2",
+    "morgan": "^1.7.0",
+    "uuid": "^2.0.2"
+  }
+}
